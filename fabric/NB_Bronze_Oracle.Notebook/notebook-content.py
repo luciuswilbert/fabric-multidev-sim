@@ -11,8 +11,8 @@
 # MARKDOWN ********************
 
 # # NB_Bronze_Oracle
-Loads the landing CSVs for this source into `LH_Bronze` (schema from `VL_Oracle`).
-No IDs in code: everything comes from `VL_Common` and `VL_Oracle`.
+# Loads the landing CSVs for this source into `LH_Bronze` (schema from `VL_Oracle`).
+# No IDs in code: everything comes from `VL_Common` and `VL_Oracle`.
 
 # CELL ********************
 
