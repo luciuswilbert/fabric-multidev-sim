@@ -1,6 +1,6 @@
 # fabric-multidev-sim
 
-Simulation of a four-developer Microsoft Fabric project with GitHub Enterprise.
+Simulation of a four-developer Microsoft Fabric project with GitHub (personal account; the SRKK org blocks unapproved tokens).
 
 | Branch | Fabric workspace | Owner |
 |---|---|---|
