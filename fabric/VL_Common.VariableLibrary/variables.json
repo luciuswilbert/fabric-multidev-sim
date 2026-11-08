@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/variableLibrary/definition/variables/1.0.0/schema.json",
+  "variables": [
+    {
+      "name": "data_workspace_id",
+      "note": "WS_Data_Dev workspace ID",
+      "type": "String",
+      "value": "60979375-538f-4804-850d-3686a95aad1d"
+    },
+    {
+      "name": "bronze_lakehouse_id",
+      "note": "LH_Bronze lakehouse ID",
+      "type": "String",
+      "value": "459eebae-070a-4531-84a3-a02761173802"
+    },
+    {
+      "name": "env_name",
+      "type": "String",
+      "value": "dev"
+    }
+  ]
+}
