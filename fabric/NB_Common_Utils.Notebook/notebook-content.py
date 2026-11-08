@@ -11,7 +11,7 @@
 # MARKDOWN ********************
 
 # # NB_Common_Utils
-Shared helpers. Load with `%run NB_Common_Utils`. Changes need the Lead's review (CODEOWNERS).
+# Shared helpers. Load with `%run NB_Common_Utils`. Changes need the Lead's review (CODEOWNERS).
 
 # CELL ********************
 
