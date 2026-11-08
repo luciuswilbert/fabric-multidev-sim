@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/variableLibrary/definition/variables/1.0.0/schema.json",
+  "variables": [
+    {
+      "name": "source_schema",
+      "type": "String",
+      "value": "sqlserver"
+    },
+    {
+      "name": "tables",
+      "note": "Comma-separated landing file names",
+      "type": "String",
+      "value": "gl_entries,cost_centers"
+    },
+    {
+      "name": "load_mode",
+      "type": "String",
+      "value": "overwrite"
+    }
+  ]
+}
