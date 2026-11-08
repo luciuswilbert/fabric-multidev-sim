@@ -1,0 +1,19 @@
+name: pr-check
+on:
+  pull_request:
+    branches: [main]
+jobs:
+  no-hardcoded-ids:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Notebooks must not contain hard-coded GUIDs
+        run: |
+          # Workspace / lakehouse IDs belong in VL_Common, not in notebook code.
+          # '# META' lines are Fabric metadata and are skipped.
+          hits=$(grep -rniE '[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}' \
+                   --include=notebook-content.py fabric/ | grep -v '# META' || true)
+          if [ -n "$hits" ]; then
+            echo "::error::Hard-coded IDs found in notebooks:"; echo "$hits"; exit 1
+          fi
+          echo "OK: no hard-coded IDs in notebooks."

@@ -1,0 +1,5 @@
+# Shared items: the Lead must review changes to these.
+# (Solo simulation: required approvals are 0 because one account plays every role.)
+/fabric/VL_Common.VariableLibrary/   @lucius-wt_srkk
+/fabric/NB_Common_Utils.Notebook/    @lucius-wt_srkk
+/.github/                            @lucius-wt_srkk

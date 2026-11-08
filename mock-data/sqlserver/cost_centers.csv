@@ -1,0 +1,6 @@
+cost_center_id,cost_center_name,manager
+CC100,Finance,Lim
+CC200,Sales,Kumar
+CC300,Operations,Tan
+CC400,IT,Lim
+CC500,HR,Tan
