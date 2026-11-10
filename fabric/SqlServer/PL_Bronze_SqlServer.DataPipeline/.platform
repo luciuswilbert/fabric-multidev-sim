@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "PL_Bronze_SqlServer"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "99371907-6cc4-85e5-4f0d-f208d6edc6ec"
+  }
+}
