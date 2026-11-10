@@ -15,8 +15,15 @@
     },
     {
       "name": "env_name",
+      "note": "",
       "type": "String",
       "value": "dev"
+    },
+    {
+      "name": "log_level",
+      "note": "",
+      "type": "String",
+      "value": "INFO"
     }
   ]
 }
