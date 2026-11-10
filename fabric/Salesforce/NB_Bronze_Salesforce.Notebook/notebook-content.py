@@ -18,6 +18,13 @@
 
 %run NB_Common_Utils
 
+# METADATA ********************
+
+# META {
+# META   "language": "python",
+# META   "language_group": "synapse_pyspark"
+# META }
+
 # CELL ********************
 
 common = notebookutils.variableLibrary.getLibrary("VL_Common")
@@ -32,3 +39,10 @@ for table in src.tables.split(","):
     (df.write.mode(src.load_mode).option("overwriteSchema", "true").format("delta")
        .save(f"{base}/Tables/{src.source_schema}/{table}"))
     print(f"{src.source_schema}.{table}: {df.count()} rows")
+
+# METADATA ********************
+
+# META {
+# META   "language": "python",
+# META   "language_group": "synapse_pyspark"
+# META }
