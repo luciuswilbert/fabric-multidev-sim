@@ -24,6 +24,12 @@
       "note": "",
       "type": "String",
       "value": "data-team@srkk.com"
+    },
+    {
+      "name": "log_level",
+      "note": "",
+      "type": "String",
+      "value": "INFO"
     }
   ]
 }
