@@ -15,8 +15,21 @@
     },
     {
       "name": "env_name",
+      "note": "",
       "type": "String",
       "value": "dev"
+    },
+    {
+      "name": "alert_email",
+      "note": "",
+      "type": "String",
+      "value": "data-team@srkk.com"
+    },
+    {
+      "name": "log_level",
+      "note": "",
+      "type": "String",
+      "value": "INFO"
     }
   ]
 }
