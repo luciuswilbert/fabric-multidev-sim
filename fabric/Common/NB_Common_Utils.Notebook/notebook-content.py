@@ -20,5 +20,12 @@ from pyspark.sql import functions as F
 def add_audit_columns(df, source):
     """Add the standard Bronze audit columns."""
     return (df
-            .withColumn("_source_system", F.lit(source))
+            .withColumn("_source", F.lit(source))
             .withColumn("_ingested_at", F.current_timestamp()))
+
+# METADATA ********************
+
+# META {
+# META   "language": "python",
+# META   "language_group": "synapse_pyspark"
+# META }
